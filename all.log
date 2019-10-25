@@ -1,0 +1,1112 @@
+2019-10-17 17:09:54,598,3096,django.server,ERROR,basehttp.py:124,"GET /admin/auth/user/ HTTP/1.1" 500 59
+2019-10-17 17:09:54,611,3096,django.server,ERROR,basehttp.py:124,"GET /admin/authtoken/token/ HTTP/1.1" 500 59
+2019-10-17 17:09:54,921,3096,django.server,ERROR,basehttp.py:124,"GET /admin/api_test/globalhost/ HTTP/1.1" 500 59
+2019-10-17 17:15:47,309,3096,root,ERROR,automationCase.py:1067,HTTPConnectionPool(host='www.baidu.comhttps', port=80): Max retries exceeded with url: //www.baidu.com (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A777B74F60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "D:\software\pathon\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\software\pathon\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\software\pathon\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\software\pathon\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\software\pathon\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "D:\software\pathon\lib\http\client.py", line 964, in send
+    self.connect()
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001A777B74F60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.baidu.comhttps', port=80): Max retries exceeded with url: //www.baidu.com (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A777B74F60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\api\automationCase.py", line 1065, in post
+    _id=data["id"], project_id=data["project_id"])
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 187, in test_api
+    code, response_data, header_data = post(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 310, in post
+    response = requests.post(url=address, data=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='www.baidu.comhttps', port=80): Max retries exceeded with url: //www.baidu.com (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A777B74F60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+2019-10-18 15:02:37,957,11296,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 15:03:17,665,11296,root,ERROR,automationCase.py:1067,AutomationCaseApi matching query does not exist.
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\api\automationCase.py", line 1065, in post
+    _id=data["id"], project_id=data["project_id"])
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 42, in test_api
+    data = AutomationCaseApiSerializer(AutomationCaseApi.objects.get(id=_id, automationTestCase=case_id)).data
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+api_test.models.DoesNotExist: AutomationCaseApi matching query does not exist.
+2019-10-18 15:03:18,324,11296,root,ERROR,automationCase.py:1067,AutomationCaseApi matching query does not exist.
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\api\automationCase.py", line 1065, in post
+    _id=data["id"], project_id=data["project_id"])
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 42, in test_api
+    data = AutomationCaseApiSerializer(AutomationCaseApi.objects.get(id=_id, automationTestCase=case_id)).data
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+api_test.models.DoesNotExist: AutomationCaseApi matching query does not exist.
+2019-10-18 15:03:18,874,11296,root,ERROR,automationCase.py:1067,AutomationCaseApi matching query does not exist.
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\api\automationCase.py", line 1065, in post
+    _id=data["id"], project_id=data["project_id"])
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 42, in test_api
+    data = AutomationCaseApiSerializer(AutomationCaseApi.objects.get(id=_id, automationTestCase=case_id)).data
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+api_test.models.DoesNotExist: AutomationCaseApi matching query does not exist.
+2019-10-18 15:05:33,449,11296,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 15:06:58,588,11296,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 15:07:21,850,11296,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 15:08:15,690,11296,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 15:12:49,908,16032,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 15:13:44,774,16032,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 15:17:22,326,16032,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 15:26:04,800,16032,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 15:34:19,435,16032,django.server,ERROR,basehttp.py:124,"POST /api/automation/update_api HTTP/1.1" 500 59
+2019-10-18 15:34:52,796,16032,django.server,ERROR,basehttp.py:124,"POST /api/automation/update_api HTTP/1.1" 500 59
+2019-10-18 15:36:32,438,6872,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 15:37:50,137,6872,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 17:17:53,349,15824,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 640, in send
+    history = [resp for resp in gen] if allow_redirects else []
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 640, in <listcomp>
+    history = [resp for resp in gen] if allow_redirects else []
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 218, in resolve_redirects
+    **adapter_kwargs
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 17:17:53,504,15824,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 640, in send
+    history = [resp for resp in gen] if allow_redirects else []
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 640, in <listcomp>
+    history = [resp for resp in gen] if allow_redirects else []
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 218, in resolve_redirects
+    **adapter_kwargs
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 17:18:43,790,15824,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 640, in send
+    history = [resp for resp in gen] if allow_redirects else []
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 640, in <listcomp>
+    history = [resp for resp in gen] if allow_redirects else []
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 218, in resolve_redirects
+    **adapter_kwargs
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-18 17:47:25,472,15824,django.server,ERROR,basehttp.py:124,"GET /api/api/history_list?project_id=1&api_id=2 HTTP/1.1" 500 59
+2019-10-21 10:38:41,425,10548,root,ERROR,confighttp.py:195,<class 'requests.exceptions.ReadTimeout'>
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\software\pathon\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "D:\software\pathon\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "D:\software\pathon\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\software\pathon\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\urllib3\connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 185, in test_api
+    code, response_data, header_data = get(header, url, request_parameter_type, parameter)
+  File "E:\workspace\api_automation_test\api_test\common\confighttp.py", line 334, in get
+    response = requests.get(url=address, params=data, headers=header, timeout=8)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 640, in send
+    history = [resp for resp in gen] if allow_redirects else []
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 640, in <listcomp>
+    history = [resp for resp in gen] if allow_redirects else []
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 218, in resolve_redirects
+    **adapter_kwargs
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.10.40.96', port=8080): Read timed out. (read timeout=8)
+2019-10-21 11:01:50,149,10548,django.server,ERROR,basehttp.py:124,"GET /api/automation/look_result?project_id=1&case_id=2&api_id=2 HTTP/1.1" 500 59
+2019-10-21 15:34:31,793,1400,django.server,ERROR,basehttp.py:124,"OPTIONS /api/automation/case_list?project_id=1&page=1&name= HTTP/1.1" 500 59
+2019-10-21 19:06:11,182,5952,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-21 19:15:30,165,5952,django.server,ERROR,basehttp.py:124,"GET /api/api/api_info?project_id=1&api_id=2 HTTP/1.1" 500 59
+2019-10-21 19:16:09,390,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:20:19,326,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:28:03,591,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:31:49,819,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:39:20,749,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:39:46,845,5952,django.server,ERROR,basehttp.py:124,"OPTIONS /api/api/del_history HTTP/1.1" 500 59
+2019-10-21 19:39:51,446,5952,django.server,ERROR,basehttp.py:124,"OPTIONS /api/api/del_history HTTP/1.1" 500 59
+2019-10-21 19:39:53,329,5952,django.server,ERROR,basehttp.py:124,"OPTIONS /api/api/del_history HTTP/1.1" 500 59
+2019-10-21 19:39:54,174,5952,django.server,ERROR,basehttp.py:124,"OPTIONS /api/api/del_history HTTP/1.1" 500 59
+2019-10-21 19:44:54,118,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:49:20,790,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:49:46,339,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:50:00,379,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:50:20,910,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:51:38,464,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:52:12,059,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:52:30,293,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 19:57:00,734,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 20:12:47,965,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 20:17:59,152,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 20:26:15,018,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 20:37:41,624,5952,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1 HTTP/1.1" 500 59
+2019-10-21 20:58:53,388,10032,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1&page2=2 HTTP/1.1" 500 59
+2019-10-21 21:12:46,918,10032,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1&page2=2 HTTP/1.1" 500 59
+2019-10-21 21:12:47,909,10032,django.server,ERROR,basehttp.py:124,"OPTIONS /api/api/add_history HTTP/1.1" 500 59
+2019-10-21 21:12:49,521,10032,django.server,ERROR,basehttp.py:124,"GET /api/project/project_list?page=1&page2=2 HTTP/1.1" 500 59
+2019-10-21 21:16:35,586,10032,django.server,ERROR,basehttp.py:124,"OPTIONS /api/api/api_list?project_id=1&page=1&name= HTTP/1.1" 500 59
+2019-10-21 21:17:41,854,10032,django.server,ERROR,basehttp.py:124,"OPTIONS /api/api/api_list?project_id=1&page=1&name= HTTP/1.1" 500 59
+2019-10-22 17:37:29,641,3664,django.request,ERROR,exception.py:118,Internal Server Error: /api/user/VisitorRecord
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\workspace\api_automation_test\api_test\api\VisitorRecord.py", line 64, in post
+    ip = self.ip_get_city(request.environ["REMOTE_ADDR"])
+  File "E:\workspace\api_automation_test\api_test\api\VisitorRecord.py", line 48, in ip_get_city
+    return response.json()
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\simplejson\__init__.py", line 518, in loads
+    return _default_decoder.decode(s)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2019-10-22 17:37:31,917,3664,django.server,ERROR,basehttp.py:124,"POST /api/user/VisitorRecord HTTP/1.1" 500 21626
+2019-10-25 09:41:58,701,244,django.request,ERROR,exception.py:118,Internal Server Error: /api/api/Download
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\workspace\api_automation_test\api_test\api\ApiDoc.py", line 1064, in get
+    url = Write().write_api(str(obj), group_data=data, data=obn)
+  File "E:\workspace\api_automation_test\api_test\common\WriteDocx.py", line 179, in write_api
+    self.doc.save(path)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\docx\document.py", line 142, in save
+    self._part.save(path_or_stream)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\docx\parts\document.py", line 129, in save
+    self.package.save(path_or_stream)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\docx\opc\package.py", line 160, in save
+    PackageWriter.write(pkg_file, self.rels, self.parts)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\docx\opc\pkgwriter.py", line 32, in write
+    phys_writer = PhysPkgWriter(pkg_file)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\docx\opc\phys_pkg.py", line 141, in __init__
+    self._zipf = ZipFile(pkg_file, 'w', compression=ZIP_DEFLATED)
+  File "D:\software\pathon\lib\zipfile.py", line 1090, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: './api_test/ApiDoc/APITest.docx'
+2019-10-25 09:42:00,368,244,django.server,ERROR,basehttp.py:124,"GET /api/api/Download?project_id=1 HTTP/1.1" 500 21952
+2019-10-25 09:59:12,283,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 09:59:13,167,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 09:59:13,725,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 09:59:14,170,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 09:59:14,355,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 09:59:14,540,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 09:59:14,727,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 09:59:14,887,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 09:59:15,041,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 09:59:15,219,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 10:02:07,876,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/get_time_task?project_id=1 HTTP/1.1" 500 59
+2019-10-25 10:02:08,049,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/group?project_id=1 HTTP/1.1" 500 59
+2019-10-25 10:02:08,450,244,django.request,ERROR,exception.py:118,Internal Server Error: /api/automation/DownloadCase
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\workspace\api_automation_test\api_test\api\automationCase.py", line 1389, in get
+    result = Write(path).write_case(data)
+  File "E:\workspace\api_automation_test\api_test\common\WriteExcel.py", line 97, in write_case
+    self.workbook.close()
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\xlsxwriter\workbook.py", line 311, in close
+    self._store_workbook()
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\xlsxwriter\workbook.py", line 640, in _store_workbook
+    allowZip64=self.allow_zip64)
+  File "D:\software\pathon\lib\zipfile.py", line 1090, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: './api_test/ApiDoc/APITest.xlsx'
+2019-10-25 10:02:08,702,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/DownloadCase?project_id=1 HTTP/1.1" 500 21532
+2019-10-25 10:02:08,706,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/DownloadCase?project_id=1 HTTP/1.1" 500 59
+2019-10-25 10:02:10,571,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/get_time_task?project_id=1 HTTP/1.1" 500 59
+2019-10-25 10:03:09,334,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/test_report?project_id=1 HTTP/1.1" 500 59
+2019-10-25 10:06:09,333,244,django.request,ERROR,exception.py:118,Internal Server Error: /api/automation/DownloadCase
+Traceback (most recent call last):
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\rest_framework\views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\workspace\api_automation_test\api_test\api\automationCase.py", line 1389, in get
+    result = Write(path).write_case(data)
+  File "E:\workspace\api_automation_test\api_test\common\WriteExcel.py", line 97, in write_case
+    self.workbook.close()
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\xlsxwriter\workbook.py", line 311, in close
+    self._store_workbook()
+  File "E:\workspace\api_automation_test\venv\lib\site-packages\xlsxwriter\workbook.py", line 640, in _store_workbook
+    allowZip64=self.allow_zip64)
+  File "D:\software\pathon\lib\zipfile.py", line 1090, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: './api_test/ApiDoc/APITest.xlsx'
+2019-10-25 10:06:09,510,244,django.server,ERROR,basehttp.py:124,"GET /api/automation/DownloadCase?project_id=1 HTTP/1.1" 500 21532

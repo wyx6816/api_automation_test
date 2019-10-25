@@ -574,9 +574,9 @@
                 this.toggleParameterSelection(rows)
             },
             delParameter(index) {
-                if (this.form.parameter.length !== 1) {
+                // if (this.form.parameter.length !== 1) {
                     this.form.parameter.splice(index, 1)
-                }
+                // }
             },
             addResponse() {
                 let headers = {name: "", value: "", required:"True", restrict: "", description: ""};

@@ -541,9 +541,9 @@
             },
             delParameter(index) {
                 this.form.requestList.splice(index, 1);
-                if (this.form.requestList.length === 0) {
+                /*if (this.form.requestList.length === 0) {
                     this.form.requestList.push({name: "", value: "", _type:"String", required:true, restrict: "", description: ""})
-                }
+                }*/
             },
             addResponse() {
                 let headers = {name: "", value: "", _type:"String", required:true, description: ""};

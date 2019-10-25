@@ -53,7 +53,8 @@ class Record(APIView):
         :param request:
         :return:
         """
-        if request.environ["REMOTE_ADDR"] == "127.0.0.1":
+        # if request.environ["REMOTE_ADDR"] == "127.0.0.1":
+        if request.environ["REMOTE_ADDR"] in ["127.0.0.1", "192.168.91.127"]:
             return JsonResponse(code="999999", msg="成功！")
         data = JSONParser().parse(request)
         result = self.parameter_check(data)

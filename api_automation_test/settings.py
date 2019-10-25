@@ -68,7 +68,7 @@ LOGGING = {
     }
 }
 
-ALLOWED_HOSTS = ['192.168.89.198', '127.0.0.1', '192.168.88.131',
+ALLOWED_HOSTS = ['192.168.91.127', '192.168.89.198', '127.0.0.1', '192.168.88.131',
                  '192.168.88.108', '192.168.1.10', 'apitest.60community.com', '*']
 
 AUTH_PROFILE_MODULE = 'djangoadmin.api_test.UserProfile'
@@ -219,6 +219,7 @@ USE_TZ = False
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = (
+    # '192.168.91.127',
     '*'
 )
 

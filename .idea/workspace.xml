@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bff3874-0f80-4ef6-957e-fc1f35d5523e" name="Default" comment="上传前端打包文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_automation_test/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_automation_test/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_test/api/VisitorRecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_test/api/VisitorRecord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_test/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_test/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/css/app.54861314e661f52a44f413468c1cd760.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/css/app.54861314e661f52a44f413468c1cd760.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/0.fb9d227a27807c763e6a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/0.fb9d227a27807c763e6a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/10.d2df04905fb680abddd4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/10.d2df04905fb680abddd4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/11.3f59ed4328d620daa99e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/11.3f59ed4328d620daa99e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/12.64203d1f1965b79e94cd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/12.64203d1f1965b79e94cd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/4.39db6beb9038bf8b12fb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/4.39db6beb9038bf8b12fb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/5.719a1559039fe765ed85.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/5.719a1559039fe765ed85.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/6.6a9a006dc1173d59f511.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/6.6a9a006dc1173d59f511.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/7.ae8dba871c41a410ffac.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/7.ae8dba871c41a410ffac.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/8.43a8c86467481d4805c2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/8.43a8c86467481d4805c2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/9.70110ccf1a00716f0844.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/9.70110ccf1a00716f0844.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/app.ee2fcc8a150d6ae562d7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/app.ee2fcc8a150d6ae562d7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/manifest.4ec8eff69980d90293a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/manifest.4ec8eff69980d90293a1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/project/api/Addapi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/project/api/Addapi.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/project/api/updateApi/TestApi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/project/api/updateApi/TestApi.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,9 +46,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/api_automation_test$manage.coverage" NAME="manage Coverage Results" MODIFIED="1571292752436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_automation_test$manage.coverage" NAME="manage Coverage Results" MODIFIED="1571983114045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/api_automation_test$Operation1.coverage" NAME="Operation1 Coverage Results" MODIFIED="1528428375677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/api_automation_test$sendEmail.coverage" NAME="sendEmail Coverage Results" MODIFIED="1528942850726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test/common" />
+    <SUITE FILE_PATH="coverage/api_automation_test$tests.coverage" NAME="tests Coverage Results" MODIFIED="1571390172902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
     <SUITE FILE_PATH="coverage/api_automation_test$1234.coverage" NAME="1234 Coverage Results" MODIFIED="1528428148814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
   </component>
   <component name="DatabaseView">
@@ -36,60 +72,90 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/Addapi.vue">
+        <entry file="file://$PROJECT_DIR$/api_test/api/automationCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17545">
-              <caret line="605" column="13" selection-start-line="605" selection-start-column="8" selection-end-line="605" selection-end-column="13" />
+            <state relative-caret-position="146">
+              <caret line="1322" column="38" selection-start-line="1322" selection-start-column="38" selection-end-line="1322" selection-end-column="38" />
+              <folding>
+                <element signature="e#2610#4401#0" />
+                <element signature="e#4433#6077#0" />
+                <element signature="e#6116#8127#0" />
+                <element signature="e#8162#10568#0" />
+                <element signature="e#10600#13141#0" />
+                <element signature="e#13294#13847#0" />
+                <element signature="e#16160#18592#0" />
+                <element signature="e#18623#20515#0" />
+                <element signature="e#18745#19370#0" />
+                <element signature="e#20546#22494#0" />
+                <element signature="e#22529#24025#0" />
+                <element signature="e#24058#28043#0" />
+                <element signature="e#28076#33689#0" />
+                <element signature="e#33735#35167#0" />
+                <element signature="e#43763#46015#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/API.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/ApiList.vue">
+        <entry file="file://$PROJECT_DIR$/frontend/src/views/project/ProjectReport.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3654">
-              <caret line="127" column="19" selection-start-line="124" selection-start-column="16" selection-end-line="127" selection-end-column="19" />
+            <state relative-caret-position="174">
+              <caret line="170" column="28" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/ApiListGroup.vue">
+        <entry file="file://$PROJECT_DIR$/frontend/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10063">
-              <caret line="348" column="13" selection-start-line="348" selection-start-column="8" selection-end-line="348" selection-end-column="13" />
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/FestTest.vue">
+        <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12499">
-              <caret line="433" column="13" selection-start-line="433" selection-start-column="8" selection-end-line="433" selection-end-column="13" />
+            <state relative-caret-position="224">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main.js">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/conf/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1856">
-              <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+            <state relative-caret-position="5539">
+              <caret line="199" selection-start-line="199" selection-end-line="199" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/build/webpack.prod.conf.js">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="986">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_test/api/VisitorRecord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/api/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -97,17 +163,101 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="116">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api_automation_test/settings.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/software/pathon/Lib/urllib/parse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="25636">
+              <caret line="886" selection-start-line="886" selection-end-line="886" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/software/pathon/Lib/os.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20213">
+              <caret line="699" selection-start-line="699" selection-end-line="699" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/test/e2e/specs/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/config/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/test/e2e/nightwatch.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2987">
+              <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2059">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6322">
+              <caret line="221" selection-start-line="221" selection-end-line="221" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_test/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1914">
+              <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_test/api/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -116,36 +266,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>excl</find>
-      <find>instance=</find>
-      <find>group</find>
-      <find>doc</find>
-      <find>ApiHeadSerializer</find>
-      <find>validate</find>
-      <find>for</find>
-      <find>handleSubmit2</find>
-      <find>forech</find>
-      <find>name</find>
-      <find>api_project</find>
-      <find>checkIp</find>
-      <find>store</find>
-      <find>result</find>
-      <find>test</find>
-      <find>testStatus</find>
-      <find>ApiList</find>
-      <find>testall</find>
-      <find>ApiListIndex</find>
-      <find>page</find>
-      <find>handleCurrentChange</find>
-      <find>headers</find>
-      <find>watch</find>
-      <find>isValidIP</find>
-      <find>Manage</find>
-      <find>8000</find>
-      <find>api.js</find>
-      <find>VERSION</find>
-      <find>apiauto</find>
-      <find>version</find>
+      <find>=</find>
+      <find>append</find>
+      <find>query</find>
+      <find>?</find>
+      <find>parse_url</find>
+      <find>apilist</find>
+      <find>apiList</find>
+      <find>updateApi</find>
+      <find>inner</find>
+      <find>wsgirequest</find>
+      <find>TestApi</find>
+      <find>button</find>
+      <find>addParameter</find>
+      <find>scope</find>
+      <find>操作</find>
+      <find>axios</find>
+      <find>请求参数</find>
+      <find>login</find>
+      <find>user/login</find>
+      <find>localhost</find>
+      <find>STATICFILES_FINDERS</find>
+      <find>VisitorRecord</find>
+      <find>project_list</find>
+      <find>关于我们</find>
+      <find>page1_3.17bc0b8</find>
+      <find>.jpg</find>
+      <find>.png</find>
+      <find>Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE&quot;</find>
+      <find>cros</find>
+      <find>127.0.0.1</find>
     </findStrings>
     <replaceStrings>
       <replace>code=&quot;999996&quot;, msg=&quot;项目不存在！&quot;</replace>
@@ -187,16 +337,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/src/views/project/automation/AutomationTest.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/project/ProjectMember.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/Project.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/Home.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/project/projectTitle/ProjectTitle.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/project/global/Globalhost.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/Projectlist.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/project/api/API.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/project/api/updateApi/ApiInfo.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/project/automation/CaseListGroup.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/automation/TestReport.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/ProjectReport.vue" />
         <option value="$PROJECT_DIR$/api_test/common/common.py" />
@@ -213,9 +353,6 @@
         <option value="$PROJECT_DIR$/frontend/src/views/project/automation/AddCaseApi.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/api/ApiListGroup.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/api/ApiList.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/project/api/Addapi.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/project/api/updateApi/TestApi.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/project/api/FestTest.vue" />
         <option value="$PROJECT_DIR$/api_test/api/automationReport.py" />
         <option value="$PROJECT_DIR$/api_test/api/dynamic.py" />
         <option value="$PROJECT_DIR$/api_test/api/global_parameter.py" />
@@ -234,10 +371,23 @@
         <option value="$PROJECT_DIR$/api_test/api/automationCase.py" />
         <option value="$PROJECT_DIR$/api_test/api/projectList.py" />
         <option value="$PROJECT_DIR$/frontend/src/main.js" />
-        <option value="$PROJECT_DIR$/frontend/src/api/api.js" />
         <option value="D:/software/pathon/Lib/site-packages/suit/apps.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/suit/apps.py" />
+        <option value="$PROJECT_DIR$/venv/test" />
+        <option value="$PROJECT_DIR$/git地址.txt" />
+        <option value="$PROJECT_DIR$/API测试请求地址.txt" />
+        <option value="$PROJECT_DIR$/frontend/src/views/project/api/FestTest.vue" />
+        <option value="$PROJECT_DIR$/api_test/tests.py" />
+        <option value="D:/software/pathon/Lib/urllib/parse.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/exception.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/wsgi.py" />
+        <option value="$PROJECT_DIR$/frontend/src/views/project/api/updateApi/TestApi.vue" />
+        <option value="$PROJECT_DIR$/frontend/src/views/project/api/Addapi.vue" />
+        <option value="$PROJECT_DIR$/api_test/api/VisitorRecord.py" />
         <option value="$PROJECT_DIR$/api_automation_test/settings.py" />
+        <option value="$PROJECT_DIR$/frontend/src/routes.js" />
+        <option value="$PROJECT_DIR$/frontend/src/App.vue" />
+        <option value="$PROJECT_DIR$/frontend/src/api/api.js" />
       </list>
     </option>
   </component>
@@ -252,7 +402,7 @@
     <option name="width" value="1920" />
     <option name="height" value="977" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -260,6 +410,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,13 +426,23 @@
             <path>
               <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,10 +450,10 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/project/api_automation_test/api_test/serializers.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/software/Git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -328,7 +489,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="runserver localhost:8000" />
+      <option name="PARAMETERS" value="runserver 192.168.91.127:8000" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -350,6 +511,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_test/common/sendEmail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api_automation_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_test/tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -400,18 +583,20 @@
       <item itemvalue="Django server.Unnamed" />
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.sendEmail" />
+      <item itemvalue="Python.tests" />
       <item itemvalue="Python tests.Unittests in api_automation_test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.manage" />
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python tests.Unittests in api_automation_test" />
         <item itemvalue="Python.sendEmail" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\wuyanxiong\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -473,7 +658,11 @@
       <workItem from="1571113249660" duration="8265000" />
       <workItem from="1571124921541" duration="2460000" />
       <workItem from="1571127395348" duration="4061000" />
-      <workItem from="1571292732927" duration="4326000" />
+      <workItem from="1571292732927" duration="29085000" />
+      <workItem from="1571643080221" duration="22162000" />
+      <workItem from="1571748086697" duration="2960000" />
+      <workItem from="1571966276736" duration="3325000" />
+      <workItem from="1571977180778" duration="5363000" />
     </task>
     <task id="LOCAL-00001" summary="1.重构新增项目，修改项目接口代码，增加详细注释">
       <created>1527915774102</created>
@@ -636,11 +825,39 @@
       <option name="project" value="LOCAL" />
       <updated>1561967013449</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="调试git">
+      <created>1571364643163</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1571364643163</updated>
+    </task>
+    <task id="LOCAL-00025" summary="删除">
+      <created>1571364794979</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1571364794979</updated>
+    </task>
+    <task id="LOCAL-00026" summary="git地址信息">
+      <created>1571367958367</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1571367958367</updated>
+    </task>
+    <task id="LOCAL-00027" summary="git请求地址">
+      <created>1571368204878</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1571368204878</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104002000" />
+    <option name="totallyTimeSpent" value="162571000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -653,23 +870,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984756" visible="true" weight="0.2217484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984756" visible="true" weight="0.22867803" />
       <window_info id="Structure" order="1" sideWeight="0.5015244" side_tool="true" weight="0.21908316" />
       <window_info id="Favorites" order="2" sideWeight="0.5015244" side_tool="true" weight="0.21908316" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.40520042" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6060768" visible="true" weight="0.156013" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.40455532" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6060768" visible="true" weight="0.4121475" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46420825" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32719395" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.6204691" weight="0.42145178" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.6204691" weight="0.4208243" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3795309" side_tool="true" weight="0.42145178" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32921347" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3286334" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49733475" weight="0.2979415" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -678,33 +894,59 @@
       <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="4" weight="0.32942432" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" visible="true" weight="0.40520042" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6060768" weight="0.31960997" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.3279396" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.62100214" weight="0.41386783" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37899786" side_tool="true" weight="0.5026969" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32921347" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49733475" weight="0.3269663" />
-      <window_info anchor="bottom" id="TypeScript" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32942432" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.重构新增项目，修改项目接口代码，增加详细注释" />
@@ -726,356 +968,565 @@
     <MESSAGE value="1.修改数据库地址" />
     <MESSAGE value="修复修改接口后，其他接口信息丢失的bug" />
     <MESSAGE value="上传前端打包文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传前端打包文件" />
+    <MESSAGE value="调试git" />
+    <MESSAGE value="删除" />
+    <MESSAGE value="git地址信息" />
+    <MESSAGE value="git请求地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="git请求地址" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/common/confighttp.py</url>
+          <line>333</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/common/confighttp.py</url>
+          <line>184</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Lib/site-packages/requests/sessions.py</url>
+          <line>493</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py</url>
+          <line>429</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/software/pathon/Lib/urllib/parse.py</url>
+          <line>886</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>363</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>825</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/admin.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>1024</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>1040</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>1112</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>1205</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>1235</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>1252</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>1283</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>1321</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_test/api/automationCase.py</url>
+          <line>1372</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="environ['REQUEST_METHOD']" language="Python" />
+        <watch expression="self.environ['QUERY_STRING']" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>self.environ.</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.environ['QUERY_STRING']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.environ[QUERY_STRING]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.environ[query_string]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.environ.query_string</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.environ['query_string']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>environ['REQUEST_METHOD']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.method</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.META['SCRIPT_NAME']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/automation/CaseApiList.vue">
+    <entry file="file://D:/software/pathon/Lib/abc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="147" column="28" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#el-dialog#1;n#section#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="5336">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/automation/TestReport.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/ProjectReport.vue">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="20764">
+          <caret line="740" selection-start-line="740" selection-end-line="740" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/projectTitle/ProjectTitle.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_test/serializers.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/structures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1247">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/common/404.vue">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/corsheaders/middleware.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="313">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/common/Login.vue">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/adapters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="212" column="6" lean-forward="true" selection-start-line="212" selection-start-column="6" selection-end-line="212" selection-end-column="33" />
+        <state relative-caret-position="301">
+          <caret line="524" selection-start-line="524" selection-end-line="524" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/Home.vue">
+    <entry file="file://$PROJECT_DIR$/api_test/common/confighttp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="84" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="84" />
-          <folding>
-            <element signature="n#style#0;n#router-link#0;n#el-col#0;n#el-col#0;n#el-row#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/Project.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/Projectlist.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#1;n#section#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/updateApi/ApiDynamic.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/updateApi/ApiInfo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="276" column="13" selection-start-line="276" selection-start-column="8" selection-end-line="276" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/updateApi/ApiForm.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/updateApi/TestApi.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="608" column="13" selection-start-line="608" selection-start-column="8" selection-end-line="608" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/global/Globalhost.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2669">
-          <caret line="158" selection-start-line="158" selection-end-line="164" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/updateApi/UpdateApi.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11118">
-          <caret line="655" column="13" selection-start-line="655" selection-start-column="8" selection-end-line="655" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/static/.gitkeep">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/urls/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_test/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="72" column="47" lean-forward="true" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/API列表.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://D:/software/pathon/Lib/site-packages/suit/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/frontend/dist/static/js/0.75b2917859cc243128f1.js" />
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="29" column="68" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/automation/AddCaseApi.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="449" column="45" selection-start-line="449" selection-start-column="45" selection-end-line="449" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="482" column="39" lean-forward="true" selection-start-line="482" selection-start-column="39" selection-end-line="482" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/pathon/Lib/site-packages/suit/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1786">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/api/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        <state relative-caret-position="284">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api_automation_test/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="e#643#675#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="346">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/apps/__init__.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/views/decorators/csrf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="267">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/apps/config.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/pathon/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="863" selection-start-line="863" selection-end-line="863" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/pathon/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="720" selection-start-line="720" selection-end-line="720" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/servers/basehttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="156" column="12" selection-start-line="156" selection-start-column="8" selection-end-line="156" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/pathon/Lib/wsgiref/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/api/projectList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/err.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/exception.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1882">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="168">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/About.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_test/migrations/0001_initial.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/staticfiles/handlers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13914" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/suit/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="470">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_test/apps.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_test/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="202" column="39" lean-forward="true" selection-start-line="202" selection-start-column="39" selection-end-line="202" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/Addapi.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17545">
-          <caret line="605" column="13" selection-start-line="605" selection-start-column="8" selection-end-line="605" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/API.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/ApiList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3654">
-          <caret line="127" column="19" selection-start-line="124" selection-start-column="16" selection-end-line="127" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/ApiListGroup.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10063">
-          <caret line="348" column="13" selection-start-line="348" selection-start-column="8" selection-end-line="348" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/FestTest.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12499">
-          <caret line="433" column="13" selection-start-line="433" selection-start-column="8" selection-end-line="433" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1856">
-          <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/build/webpack.prod.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="244">
+          <caret line="87" column="69" selection-start-line="87" selection-start-column="69" selection-end-line="87" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="319">
-            <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <first_editor relative-caret-position="166">
+            <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="522">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/updateApi/TestApi.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16675">
+          <caret line="576" column="12" selection-start-line="576" selection-start-column="12" selection-end-line="576" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#template#0;n#el-table-column#3;n#el-table#0;n#el-collapse-item#1;n#el-collapse#0;n#el-row#0;n#el-form#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#el-collapse-item#2;n#el-collapse#0;n#el-row#0;n#el-form#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+            <element signature="n#style#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/Addapi.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15660">
+          <caret line="540" column="14" selection-start-line="540" selection-start-column="14" selection-end-line="540" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#template#0;n#el-table-column#4;n#el-table#0;n#el-collapse-item#1;n#el-collapse#0;n#el-row#0;n#el-form#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13485">
+          <caret line="493" selection-start-line="493" selection-end-line="493" />
+          <folding>
+            <element signature="e#20693#21202#0" />
+            <element signature="e#21257#21671#0" />
+            <element signature="e#21728#22146#0" />
+            <element signature="e#22193#22486#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api_automation_test/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="6438">
+          <caret line="222" column="7" selection-start-line="222" selection-start-column="7" selection-end-line="222" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/staticfiles/finders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7569">
+          <caret line="275" column="51" selection-start-line="275" selection-start-column="32" selection-end-line="275" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/build/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/dist/static/img/userphoto.6d73d26.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/dist/static/img/page1_3.17bc0b8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/element-ui/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="311">
+            <caret line="158" column="41" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5539">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/pathon/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25636">
+          <caret line="886" selection-start-line="886" selection-end-line="886" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/pathon/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20213">
+          <caret line="699" selection-start-line="699" selection-end-line="699" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/test/e2e/specs/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/test/e2e/nightwatch.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2987">
+          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2059">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6322">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/api/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/dist/static/js/2.4cbf49df6535fa988edf.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6352" selection-start-column="6352" selection-end-column="6355" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/api/automationCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="1322" column="38" selection-start-line="1322" selection-start-column="38" selection-end-line="1322" selection-end-column="38" />
+          <folding>
+            <element signature="e#2610#4401#0" />
+            <element signature="e#4433#6077#0" />
+            <element signature="e#6116#8127#0" />
+            <element signature="e#8162#10568#0" />
+            <element signature="e#10600#13141#0" />
+            <element signature="e#13294#13847#0" />
+            <element signature="e#16160#18592#0" />
+            <element signature="e#18623#20515#0" />
+            <element signature="e#18745#19370#0" />
+            <element signature="e#20546#22494#0" />
+            <element signature="e#22529#24025#0" />
+            <element signature="e#24058#28043#0" />
+            <element signature="e#28076#33689#0" />
+            <element signature="e#33735#35167#0" />
+            <element signature="e#43763#46015#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/ProjectReport.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="170" column="28" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/api/VisitorRecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
